@@ -1,0 +1,162 @@
+/*页脚样式*/
+#container #footer{
+	width: 100%;
+	height: 438px;
+	background: #fff;
+}
+#container #footer .center-block{
+	width: 90%;
+}
+#container #footer .center-block .top{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+#container #footer .center-block .top dl{
+	margin: 0;
+	overflow: hidden;
+}
+#container #footer .center-block .top dl dt{
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+	width: 234px;
+	float: left;
+}
+#container #footer .center-block .top dl dt a{
+	font-family: "microsoft yahei";
+	/*display: inline-block;*/
+	font-size: 14px;
+	/*height: 15px*/
+	padding: 0 25%;
+	width: 234;
+	text-decoration: none;
+	color: #333;
+	font-weight: 300;
+	border-right: 1px solid #ccc;
+}
+#container #footer .center-block .top dl dt a:hover{
+	color: #EF5B00;
+}
+#container #footer .center-block .top dl dt:nth-last-of-type(1) a{
+	border: none;
+}
+#container #footer .center-block .middle{
+	width: 100%;
+	overflow: hidden;
+}
+#container #footer .center-block .middle .left{
+	overflow: hidden;
+}
+#container #footer .center-block .middle .left>dl{
+	float: left;
+	margin:3% 7.9% 0 0;
+}
+#container #footer .center-block .middle .left>dl:nth-last-of-type(1){
+	padding: 0 6%;
+	border-left:1px solid #ccc ;
+	margin: 3% 0 0;
+}
+#container #footer .center-block .middle .left>dl>dt{
+	margin: 15% 0 0;
+}
+#container #footer .center-block .middle .left>dl:nth-last-of-type(1)>dt{
+	text-align: center;
+	margin: 0;
+}
+#container #footer .center-block .middle .left>dl:nth-last-of-type(1)>dt:nth-of-type(1){
+	font-size: 20px;
+	color: #EF5B00;
+}
+#container #footer .center-block .middle .left>dl:nth-last-of-type(1)>dt:nth-of-type(2){
+	font-size: 12px;
+	font-weight: 100;
+}
+#container #footer .center-block .middle .left>dl:nth-last-of-type(1)>dt:nth-of-type(3){
+	font-size: 12px;
+	font-weight: 100;
+	/*margin: 0 auto;*/
+}
+#container #footer .center-block .middle .left>dl:nth-last-of-type(1)>a{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 100;
+	margin: 10px auto;
+	padding: 10px 10px;
+	border: 1px solid #EF5B00;
+	color: #EF5B00;
+	text-decoration: none;
+}
+#container #footer .center-block .middle .left>dl>dt>a{
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	color: #ccc;
+	font-weight: 100;
+	text-decoration: none;
+}
+#container #footer .center-block .bottom{
+	width: 100%;
+	margin: 50px 0 0;
+}
+#container #footer .center-block .bottom .img-responsive img{
+	width: 60px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+#container #footer .center-block .bottom .nav-bottom ul{
+	list-style: none;
+	overflow: hidden;
+	margin: 0;
+	padding:0;
+}
+#container #footer .center-block .bottom .nav-bottom ul li{
+	float: left;
+}
+#container #footer .center-block .bottom .nav-bottom ul li a{
+	display: inline-block;
+	padding: 0 5px 0;
+	border-right: 1px solid #ccc;
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+}
+#container #footer .center-block .bottom .nav-bottom ul li:nth-last-of-type(1) a{
+	border: none;
+}
+#container #footer .center-block .bottom .nav-bottom{
+	overflow: hidden;
+}
+#container #footer .center-block .bottom .nav-bottom p{
+	margin: 0;
+	font-size: 12px;
+	color: #ccc;
+}
+#container #footer .center-block .bottom .nav-bottom p a{
+	font-size: 12px;
+	color: #ccc;
+	text-decoration: none;
+}
+#container #footer .center-block .bottom .img-bottom{
+	overflow: hidden;
+}
+#container #footer .center-block .bottom .img-bottom img{
+	width: 85px;
+	float: right;
+}
+#container #footer .footer-footer{
+	width: 100%;
+	margin: 15px auto ;
+	text-align: center;
+	font-size: 20px;
+	color: #ccc;
+}
+@media only screen and (min-width: 1400px){
+	#container #footer .center-block{
+		width:1226px;
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+	#container #footer .center-block .middle .left{
+		width: 100%;
+		overflow: hidden;
+	}
+}

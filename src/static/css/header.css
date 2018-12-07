@@ -1,0 +1,221 @@
+#container #header{
+	width: 100%;
+}
+/*上导航样式*/
+#container #header .nav .nav-sup{
+	width: 100%;
+	background: #333;
+}
+#container #header .nav .nav-sup .center-block{
+	width: 90%;
+	height: 40px;
+	/*overflow: hidden;*/
+}
+#container #header .nav .nav-sup .center-block ul{
+	/*width: 60%;*/
+	height: 40px;
+	line-height: 40px;
+	list-style: none;
+	padding: 0;
+	/*overflow: hidden;*/
+}
+#container #header .nav .nav-sup .center-block ul.left{
+	width: 60%;
+	overflow: hidden;
+}
+#container #header .nav .nav-sup .center-block ul.right{
+	width: 40%;
+}
+#container #header .nav .nav-sup .center-block ul li a{
+	color: #B0B0B0;
+	font-size: 12px;
+	padding:0 10px 0;
+	text-decoration: none;
+	border-right: 1px solid #404040;
+}
+#container #header .nav .nav-sup .center-block ul li:nth-child(1) a{
+	padding-left:0 ;
+}
+#container #header .nav .nav-sup .center-block ul.left li:nth-last-child(1) a{
+	border: none;
+}
+#container #header .nav .nav-sup .center-block ul.right li:nth-child(1) a{
+	border: none;
+}
+#container #header .nav .nav-sup .center-block ul.right li:nth-child(2) a{
+	border: none;
+}
+#container #header .nav .nav-sup .center-block ul a:hover{
+	color: #fff;
+}
+#container #header .nav .nav-sup .center-block ul.left>li.left{
+	float: left;
+}
+#container #header .nav .nav-sup .center-block  ul.right>li.right{
+	float: right;
+}
+#container #header .nav .nav-sup .center-block ul li.right .shopping-cartcart{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background:#424242 ;
+}
+#container #header .nav .nav-sup .center-block  ul.right li.right .shopping-cartcart .box{
+	width: 316px;
+	height: 100px;
+	line-height: 100px;
+	position: relative;
+	background: #fff;
+	float: right;
+	text-align: center;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	color: #ccc;
+	box-shadow: 0 0 4px #ccc;
+	display: none;
+}
+#container #header .nav .nav-sup .center-block ul li.right .shopping-cartcart:hover{
+	background: #fff;
+}
+#container #header .nav .nav-sup .center-block ul li.right .shopping-cartcart:hover a{
+	color: #FF6700;
+}
+#container #header .nav .nav-sup .center-block ul li.right .shopping-cartcart:hover .box{
+	display: block;
+	z-index: 8;
+}
+
+/*下导航样式*/
+#container #header .nav .nav-sub{
+	width: 100%;
+	height: 100px;
+	/*position: relative;*/
+}
+#container #header .nav .nav-sub ul{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px 0;
+	height: 100px;
+	line-height: 100px;
+	list-style: none;
+	/*overflow: hidden;*/
+}
+#container #header .nav .nav-sub ul li{
+	margin: 0 1.5% 0 0;
+	height: 100px;
+	line-height: 55px;
+	float: right;
+}
+#container #header .nav .nav-sub ul li:nth-child(1){
+	margin: 0;
+	float: left;
+}
+#container #header .nav .nav-sub ul li:nth-child(2){
+	margin: 0;
+}
+#container #header .nav .nav-sub ul li:nth-child(3){
+	margin: 0 5% 0 0;
+}
+#container #header .nav .nav-sub ul li .navbar-form{
+	margin: 0;
+	height: 50px;
+	padding: 0;
+}
+#container #header .nav .nav-sub ul li>a{
+	color: #333;
+	font-size: 16px;
+	text-decoration: none;
+}
+#container #header .nav .nav-sub ul li .navbar-form .form-control{
+	border-radius: 0px;
+	margin: 4px 0 0;
+	width: 243px;
+	height: 50px;
+}
+#container #header .nav .nav-sub ul li .navbar-form .btn{
+	border-radius: 0px;
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	width: 50px;
+}
+#container #header .nav .nav-sub ul li .nav-select{
+	margin: 22px 0 0;
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	border-top:1px solid #ccc;
+	background: #fff;
+	display: none;
+	/*z-index: 6;*/
+	box-shadow: 2px 2px 3px #ccc;
+}
+#container #header .nav .nav-sub ul li:hover .nav-select{
+	display: block;
+	z-index: 6;
+}
+#container #header .nav .nav-sub ul li .nav-select .select-phone{
+	width: 90%;
+	margin: 0px 5% 0;
+	overflow: hidden;
+}
+#container #header .nav .nav-sub ul li .nav-select .select-phone dl{
+	width: 160px;
+	float: left;
+	margin: 20px;
+	text-align: center;
+}
+#container #header .nav .nav-sub ul li .nav-select .select-phone dl a{
+	display: inline-block;
+	margin: 20px 0 0;
+	/*padding:0 20px;*/
+	text-align: center;
+}
+#container #header .nav .nav-sub ul li .nav-select .select-phone dl a:nth-child(1){
+	padding:0 20px;
+	border-right: 1px solid #ccc;
+}
+#container #header .nav .nav-sub ul li .nav-select .select-phone dl a:nth-child(2){
+	color: #333;
+	text-decoration: none;
+	margin:0 auto;
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+	#container #header .nav .nav-sup .center-block{
+		height: 80px;
+	}
+	#container #header .nav .nav-sup .center-block ul.left{
+		width: 100%;
+		margin: 0;
+		overflow: hidden;
+	}
+	#container #header .nav .nav-sup .center-block ul.right{
+		width: 100%;
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#container #header .nav .nav-sup .center-block{
+		height: 80px;
+		overflow: hidden;
+	}
+}
+@media only screen and (min-width: 1400px){
+	#container #header .nav .nav-sup .center-block{
+		width: 1366px;
+	}
+	/*#container #header .nav .nav-sup{
+		width: 1400px;
+		background: #333;
+		margin: 0 auto;
+	}*/
+	#container #header .nav .nav-sub{
+		width: 1366px;
+		margin: 0 auto;
+	}
+	#container #header .nav .nav-sub ul li .nav-select{
+	}
+}
